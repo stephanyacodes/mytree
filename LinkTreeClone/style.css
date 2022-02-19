@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(180deg, rgb(252, 225, 241), lavenderblush, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: purple;
+    font-family: "open sans", sans-serif;
+    letter-spacing: 2px; 
+}
+
+.profile-picture {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+margin-top: 10%
+height: auto;
+max-width: 100px;
+
+border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+
+    padding: 30px;
+    font-size: 28px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid silver;
+    border-width: 4px;
+    padding: 20px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    font-size: 20px;
+
+    box-shadow: 0 0 4px navy;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    transition: color 1s;
+}
+
+a:hover {
+    color: rgb(48, 4, 116);
+    background-color: white;
+}
