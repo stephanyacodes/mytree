@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: purple;
-    font-family: "open sans", sans-serif;
+    font-family: "open-sans", sans-serif;
     letter-spacing: 2px; 
 }
 
@@ -14,16 +14,23 @@ margin-right: auto;
 
 margin-top: 10%
 height: auto;
-max-width: 100px;
-
+max-width: 130px;
 border-radius: 50%;
 }
 
 .profile-name {
     text-align: center;
 
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     font-size: 28px;
+    
+}
+
+.description {
+    text-align: center;
+    padding-bottom: 20px;
+  
 }
 
 .links {
